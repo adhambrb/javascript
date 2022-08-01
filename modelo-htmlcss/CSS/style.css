@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    outline: 2px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(85, 85, 167);
+}
+
+.container {
+    max-height: 500px;
+    max-width: 500px;
+    background-color: rgb(234, 234, 234);
+    padding: 10px;
+    margin: 50px;
+}
+
+form input,
+form label,
+form button {
+    width: 100%;
+}
+
+.btn {
+    margin-top: 20px;
+    padding-top: 0;
+    width: 25%;
+    cursor: pointer;
+}
+
+form input :focus {
+    outline: rgb(23, 36, 160);
+}
+
+form button:hover {
+    background: rgb(99, 164, 204);
+}
+
+.resultado {
+    text-align: right;
+}
+
+table {
+    border: 1px solid #000;
+    flex-shrink: 0;
+    height: auto;
+}
+
+#div1 {
+    display: flex;
+}
